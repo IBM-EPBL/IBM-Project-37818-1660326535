@@ -22,9 +22,9 @@
   ### IDEATION PHASE
   
 - EMPATHY MAP [CLICK HERE](https://github.com/IBM-EPBL/IBM-Project-37818-1660326535/blob/main/Project%20Design%20%26%20Planning/Ideation%20Phase/Empathy%20Map.pdf)
-- PROBLEM STATEMENT [CLICK HERE](https://github.com/IBM-EPBL/IBM-Project-37818-1660326535/blob/main/Project%20Design%20%26%20Planning/Ideation%20Phase/Literature_Survey%20.pdf)
+- LITERATURE SURVEY [CLICK HERE](https://github.com/IBM-EPBL/IBM-Project-37818-1660326535/blob/main/Project%20Design%20%26%20Planning/Ideation%20Phase/Literature_Survey%20.pdf)
 - BRAINSTORM AND IDEATION [CLICK HERE](https://github.com/IBM-EPBL/IBM-Project-37818-1660326535/blob/main/Project%20Design%20%26%20Planning/Ideation%20Phase/Brainstrom%26%20Ideation.pdf)
-- LITERATURE SURVEY [CLICK HERE](https://github.com/IBM-EPBL/IBM-Project-37818-1660326535/blob/main/Project%20Design%20%26%20Planning/Ideation%20Phase/Problem%20Statement.pdf)
+- PROBLEM STATMENT [CLICK HERE](https://github.com/IBM-EPBL/IBM-Project-37818-1660326535/blob/main/Project%20Design%20%26%20Planning/Ideation%20Phase/Problem%20Statement.pdf)
 
  ### PROJECT DESIGN PHASE 1
  
