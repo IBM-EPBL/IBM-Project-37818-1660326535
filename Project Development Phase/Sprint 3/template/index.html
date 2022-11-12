@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Handwritten Digits Recognition System</title>
+        <link rel="stylesheet" href="{{url_for('static',filename='css/index.css')}}">
+        <script type="text/javascript" src ="{{url_for('static',filename='js/web.js')}}"></script>
+        <!-- <link rel="stylesheet" href="C:\Users\ELCOT\Desktop\IBM\Final Deliverables\static\css\index.css">
+        <script type="text/javascript" src = "C:\Users\ELCOT\Desktop\IBM\Final Deliverables\static\js\web.js"></script> -->
+        
+    </head>
+    <body>
+        <div id="menu" class="menu"><!--This is menu bar-->
+            <li><a href="#d5">Recognize</a></li>
+            <li><a href="/">Home</a></li>
+        </div>
+        <div id="ddd"></div>
+        <div id="d1">
+            <h1 id="hand">Handwritten Digit Recognition System</h1>
+            <h2>TEAM ID : PNT2022TMID47342</h2>
+        </div>
+        <section id="s1">
+            <div id="d2">
+                <p>Handwriting recognition is one of the compelling research works going on because every individual in this world has their own style of writing. It is the capability of the computer to identify and understand handwritten digits or characters automatically. Because of the progress in the field of science and technology, everything is being digitalized to reduce human effort. Hence, there comes a need for handwritten digit recognition in many real-time applications. MNIST data set is widely used for this recognition process and it has 70000 handwritten digits. We use Artificial neural networks to train these images and build a deep learning model. Web application is created where the user can upload an image of a handwritten digit. this image is analyzed by the model and the detected result is returned on to UI
+                </p>
+            </div>
+            <div id="d3">
+                <h1>HANDWRITTEN DIGIT RECOGNITION</h1>
+                <div id="d31"><img src="static/images/hand.png"></div>
+                <div id="d32" ><p> Handwritten digit recognition can be performed using the Convolutional neural network from Machine Learning. Using the MNIST (Modified National Institute of Standards and Technologies) database and compiling with the CNN gives the basic structure of my project development. So, basically to perform the model we need some libraries such as NumPy, `Pandas', TensorFlow, Keras. These are the main structure on which my main project stands. MNIST data contains about 70,000 images of handwritten digits from 0-9. So, it is a class 10 classification model. This dataset is divided into 2 parts i.e. Training and Test dataset. Image representation as 28*28 matrix where each cell contains grayscale pixel value.</p></div>
+            </div>
+            <div id="d4">
+                <h1>CNN</h1>
+                <p>CNN is a deep learning technique to classify the input automatically (well, after you provide the right data). Over the years, CNN has found a good grip over classifying images for computer visions and now it is being used in healthcare domains too. This indicates that CNN is a reliable deep learning algorithm for an automated end-to-end prediction. CNN essentially extracts ‘useful’ features from the given input automatically making it super easy for us!</p>
+            </div>
+            <div id="d5">
+                <h1>MNIST</h1>
+                <p>The dataset that is being used here is the MNIST digits classification dataset. Keras is a deep learning API written in Python and MNIST is a dataset provided by this API. This dataset consists of 60,000 training images and 10,000 testing images. It is a decent dataset for individuals who need to have a go at pattern recognition as we will perform in just a minute! When the Keras API is called, there are four values returned namely- x_train, y_train, x_test, and y_test.</p>
+            </div>
+        </section>
+        <section id="s2">
+            <div id="d6">
+                <h1>RECOGNITION</h1>
+                <P>Upload the image and click PREDICT button to Recognize</P>
+                <form action="/predict" method="POST" enctype="multipart/form-data">
+                    <label>Select a image:</label>
+                    <input id="image" type="file" name="image" accept="image/png, image/jpeg" onchange="preview()"><br><br>
+                    <div id="d62"><img id="frame" src="" width="200px" height="200px"/></div>
+                    <div id="d61">
+                        <button type="submit"  id="predict">Predict</button>
+                        <button type="reset"  id="clear" onclick="clear()">Clear</button>
+                    </div>
+                </form>
+            </div>
+        </section>
+        <section id="s3">
+            <h1>TEAM MEMBERS</h1>
+            <div id="d7">
+                <h2> Tamil Arasu S&nbsp;&nbsp;&nbsp;&nbsp&nbsp;&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;  -&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  830119104049</h2>
+                <h2> Surya R&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;-&nbsp;&nbsp;  &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;  830119104048</h2>
+                <h2> Sachin Siyam P &nbsp;&nbsp;&nbsp;&nbsp &nbsp;&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;-&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;   830119104036</h2>
+                <h2> Ajay M  &nbsp;&nbsp&nbsp;&nbsp&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp; - &nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;   830119104002</h2>
+            </div>
+        </section>
+    </body>
+</html>
