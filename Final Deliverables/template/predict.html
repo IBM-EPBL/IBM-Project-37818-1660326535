@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Prediction</title>
+</head>
+
+<style>
+    body{
+        background-color: rgb(250, 242, 232);
+    }
+
+    #rectangle{
+        width:600px;
+        height:250px;
+        background-color:rgb(90, 35, 35);
+        border-radius: 55px;
+        position:absolute;
+        top:55%;
+        left:50%;
+        transform:translate(-50%,-50%);
+        box-shadow: 17px 17px 15px  rgb(97, 47, 47);
+    }
+
+    #ans{
+        text-align: center;
+        font-size: 50px;
+        margin: 0 auto;
+        padding: 3% 5%;
+        padding-top: 15%;
+        color: white;
+    }
+    #d1{
+        margin-left: auto;
+        margin-right:auto;
+        width: 900px;
+        text-align: center;
+        margin-top: 60px;
+    }
+
+    #d1 h1{
+        color: rgb(247, 202, 57);
+        font-size: 50px;
+        text-shadow: 2px 2px  rgb(90, 35, 35);
+    }
+
+    #d1 h2{
+        color: rgb(90, 35, 35);
+        margin-top: -10px;  
+    }
+
+</style>
+<body>
+    <div id="d1">
+        <h1 id="hand">Handwritten Digit Recognition System</h1>
+        <h2>TEAM ID : PNT2022TMID47342</h2>
+    </div>
+    <div id="rectangle">
+        <h1 id="ans">Predicted Number : {{num}}</h1>
+    </div>
+</body>
+</html>
